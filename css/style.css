@@ -7,6 +7,8 @@ body{
     font-family: 'Lato', sans-serif;   
 }
 
+/* HERO */
+
 .hero{
     width: 100%;
     height: 95vh; 
@@ -71,4 +73,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* JOIN US */
+
+.join-us{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.join-us .text-join-us{
+    color: #545983;
+    padding: 80px;
+}
+
+.join-us .text-join-us h1{
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.join-us .text-join-us p{
+    font-size: 1.5em;
 }
