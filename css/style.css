@@ -95,5 +95,28 @@ body{
 }
 
 .join-us .text-join-us p{
-    font-size: 1.5em;
+    font-size: 1.4em;
+    margin: 35px 0 0 0;
+    line-height: 1.6em;
+}
+
+.list-join-us{
+    margin: 0 0 0 22px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+.link-join-us{
+    text-decoration: none;
+    color: #808daf;
+}
+
+.img-join-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-join-us img{
+    width: 80%;
 }
